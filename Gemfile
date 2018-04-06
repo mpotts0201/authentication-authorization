@@ -43,3 +43,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'omniauth'
 gem 'devise_token_auth'
+<<<<<<< HEAD
+=======
+gem 'ffaker'
+gem 'cancancan'
+>>>>>>> d5a0695f7600baf6827878aeec2808dcd3885b1c

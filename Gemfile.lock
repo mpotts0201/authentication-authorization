@@ -42,6 +42,10 @@ GEM
     bcrypt (3.1.11)
     builder (3.2.3)
     byebug (10.0.2)
+<<<<<<< HEAD
+=======
+    cancancan (2.0.0)
+>>>>>>> d5a0695f7600baf6827878aeec2808dcd3885b1c
     concurrent-ruby (1.0.5)
     crass (1.0.3)
     devise (4.4.3)
@@ -54,6 +58,10 @@ GEM
       devise (> 3.5.2, < 4.5)
       rails (< 6)
     erubi (1.7.1)
+<<<<<<< HEAD
+=======
+    ffaker (2.8.1)
+>>>>>>> d5a0695f7600baf6827878aeec2808dcd3885b1c
     ffi (1.9.23)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -143,8 +151,15 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+<<<<<<< HEAD
   devise
   devise_token_auth
+=======
+  cancancan
+  devise
+  devise_token_auth
+  ffaker
+>>>>>>> d5a0695f7600baf6827878aeec2808dcd3885b1c
   listen (>= 3.0.5, < 3.2)
   omniauth
   pg (>= 0.18, < 2.0)
@@ -155,4 +170,8 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
+<<<<<<< HEAD
    1.16.1
+=======
+   1.16.0.pre.3
+>>>>>>> d5a0695f7600baf6827878aeec2808dcd3885b1c
