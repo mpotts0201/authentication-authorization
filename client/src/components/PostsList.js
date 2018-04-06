@@ -5,7 +5,7 @@ const PostsList = (props) => {
 
   const posts = props.posts.map((post) => {
     return (
-      <Post {...post} key={post.id}/>
+      <Post {...post} deletePost={props.deletePost} key={post.id}/>
     )
   })
   return (
