@@ -21,7 +21,7 @@ class App extends Component {
 
       this.setState({ signedIn: true })
     } catch (err) {
-      console.log(err)
+      console.log(err.response.data.errors)
     }
   }
 
